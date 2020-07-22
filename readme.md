@@ -74,7 +74,7 @@
 
 É preciso configurar o endereço do mongodb em `api/config/default.json` e `api/config/test.json`
 
-
+  
 
 **Comandos:**
 
@@ -87,7 +87,7 @@ obs: não tive tempo para setar o ambiente de produção :(((
   
 
 **Documentação:**
-Arquivo de Workspace do Insomnia: 
+Você pode utilizar o [Workspace do Insomnia](api%20insomnia%20workspace.json) que preparei.
   
 
 - `base_url/authentication`: autenticação (POST)
