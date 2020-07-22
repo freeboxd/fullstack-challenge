@@ -1,42 +1,50 @@
-<p align="center">
-  <img src="./Grupo 116@2x.png" width="300">
+<p  align="center">
+
+<img  src="./Grupo 116@2x.png"  width="300">
+
 </p>
 
-# { "developer": "fullstack" }
+  
 
-The objective of this challenge is to evaluate your domain in fullstack development: its organization, style and good practices with code, APIs creation, frameworks knowledge and technologies.
+# fullstack-challenge - Guilherme Nunes
 
-## Rules
+## Installation
 
-1. Your code should be made available in a public or private repository, on your personal github or bitbucket. But, if you preffer, create a Pull Request with your application;
-2. Send the link to desenvolvimento@cotabox.com.br;
-3. We use VueJS and Node.js with MongoDB, but you can feel free to choose other technologies;
+ 1. clone e abra a pasta do projeto `git clone` `cd fullstack-challenge`
+ 2. instale as dependências `yarn install` ou `npm install`
+ 3. pronto!
 
 ## Challenge
 
 ### Front-end
 
-The following layout should be developed
-![layout](layout-onepage.png)
+**Comandos:**
+- Servidor de desenvolvimento: `yarn dev`
+- Build para produção: `yarn build`
+- Rodar testes automatizados: `yarn test`
 
-[You can download the PSD here](layout-onepage.psd)
 
-- You can use the libs and frameworks that make you more comfortable;
-- All fields are required in the form;
-- We'll be happy if you develop tests for it;
+**Tecnologias utilizadas:**
+ - VueJs
+ - NuxtJs
+ - Typescript
+ - Vuex
+ - Axios
+ - ElementUI
+ - Jest
 
 ### Back-end
 
-The layout has a form, a table with percentage information of participation and a pizza graph that represents this distribution.
+**Setup:**
+É preciso configurar o endereço do mongodb em `api/config/default.json` e `api/config/test.json`
 
-- You need to create APIs that sends and receives these informations;
-- We'll be happy if you develop tests for it;
-- In case of inconsistency, return the error in a structured JSON with HTTP 400 code;
+**Comandos:**
+- Servidor de desenvolvimento: `yarn dev`
+- Rodar testes automatizados: `yarn test`
+obs: não tive tempo para setar o ambiente de produção :((( 
 
-#### Plus
+**Tecnologias utilizadas:**
 
-Feel free to make improviments like new funcionalities, visual optimizations, API security, etc. 😉
-
-## Questions?
-
-Send your questions directly to desenvolvimento@cotabox.com.br or opening a issue.
+ - NodeJs
+ - Feathersjs
+ - MongoDB
