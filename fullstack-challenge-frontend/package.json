@@ -13,13 +13,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@amcharts/amcharts4": "^4.9.30",
     "@nuxt/typescript-runtime": "^0.4.10",
     "@nuxtjs/axios": "^5.11.0",
     "apexcharts": "^3.19.3",
+    "bootstrap": "^4.5.0",
     "element-ui": "^2.13.2",
     "nuxt": "^2.13.0",
-    "nuxt-property-decorator": "^2.7.2",
-    "vue-apexcharts": "^1.6.0"
+    "nuxt-property-decorator": "^2.7.2"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^1.0.3",
